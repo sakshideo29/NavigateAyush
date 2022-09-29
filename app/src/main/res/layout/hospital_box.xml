@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="16dp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+<ImageView
+    android:id="@+id/HospitalImg"
+    android:layout_width="105dp"
+    android:layout_height="64dp"
+    android:src="@drawable/img_17"></ImageView>
+
+    <TextView
+        android:id="@+id/HospitalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="National Institute Of Ayurveda ,Jaipur,Rajasthan"
+        android:textStyle="bold"
+        android:textSize="20sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ClockImg"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/img_18"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/HospitalTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="33dp"
+        android:text="  9:00 am to 10:00 pm"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="left"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/OpenCloseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="OPEN"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:id="@+id/OpenCloseImage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/img_19"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/ButtonKnowMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#52C1FF"
+        android:text="Know More"></Button>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/ButtonLocation"
+        android:layout_marginStart="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#52C1FF"
+        android:text="Location"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42074797497",
+    "project_id": "navigateayush-app",
+    "storage_bucket": "navigateayush-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42074797497:android:1ff8b110d7859cdc757268",
+        "android_client_info": {
+          "package_name": "com.example.navigateayushapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42074797497-fef9hsd8jv79hn4s45qfpro506qpspkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHULivbTW9k7eHJdOmPqiOjS2PNEqdNso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42074797497-fef9hsd8jv79hn4s45qfpro506qpspkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

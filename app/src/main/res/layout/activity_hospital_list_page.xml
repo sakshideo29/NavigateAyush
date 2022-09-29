@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".HospitalListPage">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/img_30">
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="360dp"
+            android:layout_height="123dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-26dp"
+            android:background="@drawable/rectangle_5"
+            />
+
+
+
+        <TextView
+            android:id="@+id/Try"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayurveda Hospitals"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="15dp"></TextView>
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:queryHint="Search Hospital...."
+            android:iconifiedByDefault="false"
+            android:background="@drawable/search_view"
+            android:backgroundTint="@color/white"
+            android:layout_marginBottom="15dp"
+            ></SearchView>
+
+        <ImageView
+            android:id="@+id/ImgAllMaps"
+            android:layout_width="282dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img_37"
+            android:layout_gravity="center"></ImageView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/hospital_box" />
+
+
+</LinearLayout>
+

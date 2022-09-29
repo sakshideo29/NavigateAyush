@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <TextView
+        android:layout_marginTop="170dp"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MINISTRY OF AYUSH"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Government Of India"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_1"
+        android:layout_gravity="center"></ImageView>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:backgroundTint="#FE8E0A"></Button>
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SKIP"
+        android:backgroundTint="#FE8E0A"></Button>
+
+
+
+</LinearLayout>
